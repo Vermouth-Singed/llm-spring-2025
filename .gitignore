@@ -1,0 +1,34 @@
+# Project exclude paths
+/.gradle/
+/build/
+/build/classes/java/main/
+/build/classes/java/test/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+wrapper
+log
+.jpb
+gradlew
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
