@@ -128,7 +128,7 @@ public class GPTService {
 
     private Double calculateCost(String model, Long tokens) {
         Map<String, Double> costPer1kTokens = Map.of(
-            GPTEnum.GPT_4_TURBO_PREVIEW.model(), GPTEnum.GPT_4_TURBO_PREVIEW.costPerToken(),
+            GPTEnum.GPT_4.model(), GPTEnum.GPT_4.costPerToken(),
             GPTEnum.GPT_3_5_TURBO.model(), GPTEnum.GPT_3_5_TURBO.costPerToken()
         );
 
@@ -136,3 +136,4 @@ public class GPTService {
         return (tokens / 1000.0) * costPerToken;
     }
 }
+
