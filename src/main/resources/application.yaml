@@ -3,6 +3,6 @@ spring:
     name: llm-spring-2025
 openai:
   key: ENC(bErXsVkncMl26B8o/8L0a0EbRfKnBYObDaUuJofkKC5K7REyWor/TYAYgKBTLW5LUqDhN65lCgHgEce4nONIcW/MTD3FFnyK874S/N7YyljpYOrerk2eG61vvs00Hm1dIgRR5McZ94Fk91m1EHDTSnmtKJEPCTQCFWcXcZ7IzT8camDS54nGVsUUe7Sw2ziUiBw+Mjp8+ZBYpmn7b+rCMAXRxC4OAE3IlTpw1iNqau0=)
-  default-model: gpt-4-turbo-preview
-  fallback-model: gpt-3.5-turbo
+  default-model: gpt-3.5-turbo
+  fallback-model: gpt-4
   timeout: 60
