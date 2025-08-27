@@ -1,7 +1,7 @@
 package com.example.llm.enums;
 
 public enum GPTEnum {
-    GPT_4_TURBO_PREVIEW("gpt-4-turbo-preview", 4000, 0.7, 0.01),
+    GPT_4("gpt-4", 4000, 0.7, 0.01),
     GPT_3_5_TURBO("gpt-3.5-turbo", 2000, 0.7, 0.002);
 
     private final String model;
